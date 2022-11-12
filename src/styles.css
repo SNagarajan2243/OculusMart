@@ -1,0 +1,245 @@
+/* Browser */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Title */
+
+#title {
+  background-color: #c539b4;
+}
+
+.title-container {
+  padding: 3% 15%;
+  position: relative;
+}
+
+/* navbar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.col-lg-6 h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  text-align: left;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+.nav-item:hover {
+  background-color: #852999;
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* Download Button */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+.imageTitle {
+  position: absolute;
+  width: 30%;
+  bottom: 0%;
+  right: 15%;
+}
+
+/* Benefits */
+
+h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.benefit-container {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.benefit-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #852999;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #c539b4;
+}
+
+/* Testimonails */
+
+#testimonial {
+  color: #fff;
+  background-color: #c539b4;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+/* Card */
+
+#card-detail {
+  padding: 3% 0;
+}
+
+.card-detail-container {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.card {
+  margin: 3rem 0;
+}
+
+.card-header h3 {
+  /* font-size: 3.5rem; */
+  line-height: 1.5;
+}
+
+.card-body p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.card-header,
+.card-body {
+  padding: 1rem 3rem;
+}
+
+/* Number Count */
+
+#Number-count {
+  background-color: #c539b4;
+  color: #fff;
+  padding: 5% 15%;
+}
+
+#Number-count h2 {
+  padding: 0 0 7% 0;
+}
+
+#Number-count .col p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.Number-count-container {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.card-color {
+  margin: 1rem;
+  background-color: #852999;
+  border-radius: 50px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+.Number-count-container i {
+  padding: 2rem;
+  color: #c539b4;
+}
+
+.text {
+  color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Load on Scroll Animation */
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* media query */
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-container {
+    padding-bottom: 0;
+  }
+
+  .imageTitle {
+    position: static;
+    /* transform : rotate(0); */
+    width: 60%;
+    right: 0%;
+  }
+}

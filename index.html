@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Oculus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font  -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@700&display=swap&family=Sacramento&family=Silkscreen&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4cf57bef2e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap -->
+
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <!-- Title -->
+    <section id="title">
+      <!-- navbar -->
+      <div class="title-container container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="#" class="navbar-brand">OculusMart</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarOption"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarOption">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#benefits" class="nav-link"> Benefits </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"> Purchase </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Description with image -->
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h1>Explore New Things in Virtual World</h1>
+            <button type="button" class="btn btn-lg btn-dark download-btn">
+              <i class="fa-brands fa-google"></i> Explore
+            </button>
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-light download-btn"
+            >
+              <i class="fa-brands fa-windows"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <img
+              class="imageTitle"
+              src="image/Machine_with_Oculus.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+
+    <section id="benefits">
+      <div class="container-fluid row benefit-container reveal fade-bottom">
+        <div class="col-lg-4 benefit-box">
+          <i class="icon fa-solid fa-circle-check fa-4x icon"></i>
+          <h3>Awesome Experiences</h3>
+          <p>
+            The VR technology makes users feel that they experience the real
+            locations and hearing the real sounds and seeing the real things.
+          </p>
+        </div>
+        <div class="col-lg-4 benefit-box">
+          <i class="fa-solid fa-people-group fa-4x icon"></i>
+          <h3>Connects with people</h3>
+          <p>
+            Users came to know about different types of people and get connected
+            with them.
+          </p>
+        </div>
+        <div class="col-lg-4 benefit-box">
+          <i class="fa-solid fa-tower-broadcast fa-4x icon"></i>
+          <h3>Effective communication</h3>
+          <p>
+            Users can communicate with each other and thus enjoy the
+            conversation between them.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+
+    <section id="testimonial">
+      <div class="testimonial-container reveal fade-bottom">
+        <div
+          id="testimonial-slider"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>
+                Oculus Quest Advanced All-in-One VR Gaming System - 64GB (64 GB)
+              </h2>
+              <img
+                class="testimonial-image"
+                src="image/Testimonial image 3.png"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <h2>
+                Oculus Quest 2 Advanced All-In-One Virtual Reality Headset
+                (128GB)
+              </h2>
+              <img
+                class="testimonial-image"
+                src="image/Testimonial image 3.png"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <h2>
+                Oculus Quest 2 Advanced All-In-One Virtual Reality Headset -
+                256GB
+              </h2>
+              <img
+                class="testimonial-image"
+                src="image/Testimonial image 3.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#testimonial-slider"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#testimonial-slider"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details in Card -->
+
+    <section id="card-detail">
+      <div class="card-detail-container reveal fade-bottom">
+        <h2>Buy Oculus in Exclusive Offer</h2>
+        <p>Simple and affordable price plans</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>
+                  Oculus Quest Advanced All-in-One VR Gaming System - 64GB (64
+                  GB)
+                </h3>
+              </div>
+              <div class="card-body">
+                <p>
+                  Quest 2 requires your Facebook account to log in, making it
+                  easy to meet up with friends in VR and discover communities
+                  around the world
+                </p>
+                <p>
+                  Next-level Hardware - Make every move count with a
+                  blazing-fast processor and our highest-resolution display
+                </p>
+                <p>
+                  All-In-One Gaming - With backward compatibility, you can
+                  explore new titles and old favorites in the expansive Quest
+                  content library
+                </p>
+                <p>
+                  <strong class="text-dark">Price - ₹45,990</strong>
+                </p>
+                <a class="btn btn-lg btn-outline-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>
+                  Oculus Quest 2 Advanced All-In-One Virtual Reality Headset
+                  (128GB)
+                </h3>
+              </div>
+              <div class="card-body">
+                <p>
+                  Quest 2 requires your Facebook account to log in, making it
+                  easy to meet up with friends in VR and discover communities
+                  around the world
+                </p>
+                <p>
+                  Next-level Hardware - Make every move count with a
+                  blazing-fast processor and our highest-resolution display
+                </p>
+                <p>
+                  All-In-One Gaming - With backward compatibility, you can
+                  explore new titles and old favorites in the expansive Quest
+                  content library
+                </p>
+                <p>
+                  <strong class="text-dark">Price - ₹50,499</strong>
+                </p>
+                <a class="btn btn-lg btn-outline-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3>
+                  Oculus Quest 2 Advanced All-In-One Virtual Reality Headset -
+                  256GB
+                </h3>
+              </div>
+              <div class="card-body">
+                <p>
+                  Quest 2 requires your Facebook account to log in, making it
+                  easy to meet up with friends in VR and discover communities
+                  around the world
+                </p>
+                <p>
+                  Next-level Hardware - Make every move count with a
+                  blazing-fast processor and our highest-resolution display
+                </p>
+                <p>
+                  All-In-One Gaming - With backward compatibility, you can
+                  explore new titles and old favorites in the expansive Quest
+                  content library
+                </p>
+                <p>
+                  <strong class="text-dark">Price - ₹60,999</strong>
+                </p>
+                <a class="btn btn-lg btn-outline-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Number Increment -->
+
+    <section id="Number-count">
+      <div class="Number-count-container reveal fade-bottom">
+        <h2>Achievements</h2>
+        <div class="row">
+          <div class="col card-color">
+            <i class="fa-solid fa-users fa-2x"></i>
+            <h2 class="num" data-limit="350">0</h2>
+            <!-- <span>l+</span> -->
+            <p class="text">Our Users</p>
+          </div>
+          <div class="col card-color">
+            <i class="fa-solid fa-award fa-2x"></i>
+            <h2 class="num" data-limit="100">0</h2>
+            <!-- <span>l+</span> -->
+            <p class="text">Awards</p>
+          </div>
+          <div class="col card-color">
+            <i class="fa-solid fa-diagram-project fa-2x"></i>
+            <h2 class="num" data-limit="275">0</h2>
+            <!-- <span>l+</span> -->
+            <p class="text">Projects Completed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-solid fa-envelope"></i>
+      <p>© Copyright OculusMart</p>
+    </footer>
+
+    <!-- scripts -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+
+    <!-- carousel jquery and js -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
