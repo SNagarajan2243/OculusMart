@@ -228,6 +228,11 @@ h2 {
     width: 60%;
     right: 0%;
   }
+
+  .carousel-item{
+    padding: 20% 15%;
+  }
+
   #footer {
     padding: 20% 15%;
     font-size: 2rem;
