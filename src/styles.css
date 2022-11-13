@@ -41,8 +41,8 @@
 }
 
 .nav-link {
-  font-size: 1.5rem;
-  font-family: "Montserrat-light";
+  font-size: 1rem;
+  font-family: "Ubuntu";
 }
 
 .nav-item:hover {
@@ -168,7 +168,7 @@ h2 {
   text-align: center;
 }
 
-.Number-count-card{
+.Number-count-card {
   padding: 10px;
 }
 
@@ -210,6 +210,10 @@ h2 {
 /* media query */
 
 @media (max-width: 990px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
   #title {
     text-align: center;
   }
@@ -224,20 +228,20 @@ h2 {
     width: 60%;
     right: 0%;
   }
-  #footer{
-    padding:20% 15%;
+  #footer {
+    padding: 20% 15%;
     font-size: 2rem;
   }
 }
 
 /* Load on Scroll Animation */
 
-@media (min-width: 1080px){
+@media (min-width: 1080px) {
   .reveal {
     position: relative;
     opacity: 0;
   }
-  
+
   .reveal.active {
     opacity: 1;
   }
@@ -254,5 +258,4 @@ h2 {
       opacity: 1;
     }
   }
-  
 }
