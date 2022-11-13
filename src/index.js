@@ -16,20 +16,33 @@ const reveal = () => {
 
 window.addEventListener("scroll", reveal);
 
-let section = document.getElementById("Number-count")
-let start = false
+let section = document.getElementById("Number-count");
+let start = false;
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 5000;
+let interval = 3000;
+let body = document.querySelector("body");
 
-
-window.onscroll = function(){
-  if(window.scrollY >= section.offsetTop){
-    if(!start){
-      valueDisplays.forEach((valueDisplay)=>{ startCount(valueDisplay)})
+window.onscroll = function () {
+  if (body.offsetHeight < 4000) {
+    if (window.scrollY >= section.offsetTop) {
+      if (!start) {
+        valueDisplays.forEach((valueDisplay) => {
+          startCount(valueDisplay);
+        });
+      }
+      start = true;
     }
-    start = true
+  } else {
+    if(!start){
+      valueDisplays.forEach((valueDisplay) => {
+        if (valueDisplay.textContent == 0) {
+          startCount(valueDisplay);
+        }
+      });
+    }
+    start = true;
   }
-}
+};
 
 const startCount = (valueDisplay) => {
   let startValue = 0;
@@ -42,4 +55,4 @@ const startCount = (valueDisplay) => {
       clearInterval(counter);
     }
   }, duration);
-}
+};
